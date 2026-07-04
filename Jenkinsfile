@@ -4,7 +4,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // IMPORTANT : remplacez l'URL par celle de VOTRE depot GitHub
-                git branch: 'main', url: 'https://github.com/VOTRE-COMPTE/calculator.git'
+                git branch: 'main', url: 'https://github.com/kebirBahia/calculator.git'
             }
         }
         stage('Build & Test') {
